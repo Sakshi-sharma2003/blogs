@@ -1,0 +1,143 @@
+/* Body background */
+body {
+    background: linear-gradient(135deg, #cee0f7, #a7c5eb);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Article styling with gradient backgrounds */
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 20px;
+    background: linear-gradient(135deg, #f0e68c, #ffb6c1);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Div styling for individual blog posts */
+div {
+    width: 450px;
+    height: 350px;
+    border: 2px solid black;
+    background: linear-gradient(145deg, #f7e6d1, #f0d1b1);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    overflow: hidden;
+}
+
+/* Headings styling */
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: crimson;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+p, h2, h3 {
+    font-size: 24px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+/* Form Styling */
+form {
+    width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 5px solid #333;
+    background: linear-gradient(135deg, #f5f7fa, #e4efff);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover Effect for the Form */
+form:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    border-color: #0077cc; /* Slight color change on hover */
+}
+
+/* Input Fields Styling */
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover and Focus Effect for Input Fields */
+form input:hover, form textarea:hover, form button:hover,
+form input:focus, form textarea:focus {
+    border-color: #0077cc;
+    background-color: #e0f4ff;
+}
+
+/* Button Styling */
+form button {
+    background-color: #0077cc;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover Effect for Button */
+form button:hover {
+    background-color: #005fa3;
+    transform: scale(1.05);
+}
+
+/* Active State for Button */
+form button:active {
+    background-color: #004a7a;
+    transform: scale(1);
+}
+
+
+/* Button styling */
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff4500;
+}
+
+/* Show section styling */
+#showw {
+    width: 100%;  /* Adjust width to fit the screen, or you can use a specific percentage */
+    max-width: 800px; /* Optional: Set a maximum width if needed */
+    min-height: 450px; /* Minimum height to display content properly */
+    margin: 20px auto;
+    background: linear-gradient(135deg, #b0c4de, #4682b4);
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: auto; /* Enables scrolling if content exceeds container size */
+    padding: 20px;  /* Adding padding to prevent content from touching edges */
+}
+
+
